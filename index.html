@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/132f54ee8c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <footer>
+        <div class="container">
+            <div class="info-footer">
+                <div class="information-text">
+                    <h3>Əsas Kateqoriyalar</h3>
+                    <a href="#"><span>Bütün məkanlar</span></a>
+                    <a href="#"><span>Qapalı məkanlar</span></a>
+                    <a href="#"><span>Açıq havada məkanlar</span></a>
+                    <a href="#"><span>Dəniz kənarı məkanlar</span></a>
+                </div>
+                <div class="information-text">
+                    <h3>Etoy</h3>
+                    <a href="#"><span>Əsas səhifə</span></a>
+                    <a href="#"><span>Blog</span></a>
+                    <a href="#"><span>Haqqımızda</span></a>
+                    <a href="#"><span>İstifadə qaydaları</span></a>
+                </div>
+                <div class="information-text">
+                    <h3>Məlumat</h3>
+                    <a href="#"><span>Niyə 'Etoy'?</span></a>
+                    <a href="#"><span>Tez-tez verilən suallar</span></a>
+                    <a href="#"><span>Bizimlə iş birliyi</span></a>
+                    <a href="#"><span>Gizlilik Siyasəti</span></a>
+                </div>
+                <div class="information-text">
+                    <h3>Əlaqə</h3>
+                    <p id="copy"><button type="button" onclick="copyEvent('copy')">+994 553 55 55</button></p>
+                    <a href="#"><span>info@etoy.az</span></a>
+                    <a href="#"><span></span></a>
+                    <div class="social-media">
+                        <span>Sosial şəbəkələr</span>
+                        <div class="i-class">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr color="white">
+            <div class="footer-verification">
+                <p><i class="fa-regular fa-copyright"></i>
+                    Bütün müəllif hüquqları qorunur 2022-2023
+                    <br>
+                    Developed by <a href="https://az.wikipedia.org/wiki/M%C3%BC%C9%99lliflik_h%C3%BCququ">Etoy.az</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function copyEvent(id) {
+            var str = document.getElementById(id);
+            window.getSelection().selectAllChildren(str);
+            document.execCommand("Copy")
+        }
+    </script>
+</body>
+
+</html>
